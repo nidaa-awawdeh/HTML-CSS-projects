@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(75, 75, 77);
+}
+#head {
+    /* CSS Layout - Horizontal & Vertical Align */
+ /* https://www.w3schools.com/css/css_align.asp */
+      margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+   color: rgb(255, 255, 255);
+   background-color: rgb(137, 139, 137);
+}
+
+.row1  
+ {
+      display: flex;
+        flex-direction: row;
+        padding: 10px;
+}
+
+.row1 >div {
+    width: 250px;
+    height: 150px;
+      /* background-color: #f1f1f1; */
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+ .row2 {
+     display: flex;
+        flex-direction: row;   
+ }
+
+ .row2 >div {
+    width: 250px;
+    height: 150px;
+      /* background-color: #f1f1f1; */
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+ /* p{
+   margin-top: 100px;
+ } */
+  
+ .note1{
+      background-color: red;
+  }
+   .note2 {
+ background-color: rgb(151, 151, 240);
+   }
+
+.note3 {
+       background-color: rgb(118, 118, 236);
+   }
+ .note4 {
+       
+        background-color: red;
+   }
+.note5 {
+        
+        background-color: rgb(228, 13, 192);
+   }
+ .note6 {
+        
+        background-color: rgb(233, 142, 38);
+   }
+ .note7 {
+          background-color: rgb(233, 142, 38);
+   }
+.note8 {
+         background-color: rgb(246, 136, 219);
+   }
+
+   button {
+       background-color: royalblue;
+    
+        
+   }
+
+footer {
+       bottom: 0;
+        /* position: fixed;
+        width: 100%; */
+}
+
+   .footer {
+        /* background: blue; */
+        /* height: 100px; */
+        margin-top: 2%;
+        margin-left: 30%;
+        width: 400px;
+        text-align:center;
+        padding:1px;
+        color:#ffffff;
+    }
