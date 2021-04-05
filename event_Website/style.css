@@ -1,0 +1,124 @@
+#logo {
+  width: 150px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+#backimg {
+  background-image: url("event.jpg");
+}
+.text-base-color {
+  color: red;
+}
+.headingtwo {
+  font-size: 70px;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+}
+
+h3,
+h4 {
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+}
+.intro p {
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+}
+nav {
+  float: right;
+}
+
+.nav a:hover {
+  background-color: rgb(202, 36, 36);
+  color: black;
+}
+
+nav a.active {
+  background-color: #aecef3;
+  color: rgb(221, 31, 104);
+}
+ul {
+  list-style: none;
+
+  display: inline-flex;
+}
+
+ul li {
+  padding: 3px;
+  margin: 10px;
+  float: right;
+}
+ul li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+}
+.about_event {
+  width: 35%;
+  height: 300px;
+  border: gray 1px solid;
+  margin-left: 10px;
+}
+
+.about_event h2 {
+  font-size: 20px;
+  text-align: left;
+}
+
+.about_tedx {
+  width: 25%;
+  height: 300px;
+  border: gray 1px solid;
+  margin-left: 100px;
+}
+
+.about_tedx h4 {
+  color: black;
+  font-size: 20px;
+  text-align: left;
+}
+
+.position {
+  background-image: url("event.jpg");
+  height: 300px;
+}
+
+.position,
+h3 {
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+.position a {
+  text-decoration: none;
+  border: white 2px solid;
+  color: white;
+}
+
+.connect {
+  border: solid 2px red;
+  display: flex;
+  flex-direction: row;
+}
+
+.banner_event {
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+#logofooter {
+  width: 150px;
+}
