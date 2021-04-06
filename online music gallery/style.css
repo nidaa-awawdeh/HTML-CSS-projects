@@ -1,0 +1,9 @@
+#nidaa{
+
+    background-attachment: fixed;
+    /*  fixed تبقى ثابتة ، ولا تتغير */
+    background-position: 90 78;
+     background-size: auto;
+    /*  auto حجمها الطبيعي */
+    /*  cover : تغطية المحتوى */
+}

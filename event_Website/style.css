@@ -1,11 +1,19 @@
+
 #logo {
   width: 150px;
   margin-left: 80px;
-  margin-top: 20px;
+  margin-top: 10px;
+
+}
+
+.headingtwo{
+  margin-left: 80px;
+  margin-top: 50px;
 }
 
 #backimg {
   background-image: url("event.jpg");
+    
 }
 .text-base-color {
   color: red;
@@ -23,6 +31,13 @@ h4 {
   font-weight: bolder;
   text-align: center;
   color: white;
+  margin-top:10px;
+ 
+}
+
+#connect{
+   text-decoration-color: red;
+      text-decoration-line: underline; 
 }
 .intro p {
   font-size: 25px;
@@ -30,9 +45,7 @@ h4 {
   text-align: center;
   color: white;
 }
-nav {
-  float: right;
-}
+
 
 .nav a:hover {
   background-color: rgb(202, 36, 36);
@@ -47,6 +60,9 @@ ul {
   list-style: none;
 
   display: inline-flex;
+  margin-left: 470px;
+
+  margin-top: 20px;
 }
 
 ul li {
@@ -67,19 +83,39 @@ ul li > a {
   width: 35%;
   height: 300px;
   border: gray 1px solid;
-  margin-left: 10px;
+  margin-left: 80px;
+}
+
+
+.about_event p{
+   text-overflow: ellipsis;
+  word-wrap: break-word;
+  /* overflow: hidden; */
+  max-height: 2.6em;
+  line-height: 1.1em;
 }
 
 .about_event h2 {
   font-size: 20px;
   text-align: left;
+    text-decoration-color: red;
+      text-decoration-line: underline; 
+  
 }
 
 .about_tedx {
   width: 25%;
   height: 300px;
   border: gray 1px solid;
-  margin-left: 100px;
+  margin-left: 350px;
+}
+
+.about_tedx p{
+   text-overflow: ellipsis;
+  word-wrap: break-word;
+  /* overflow: hidden; */
+  max-height: 1.1em;
+  line-height: 1.1em;
 }
 
 .about_tedx h4 {
@@ -109,7 +145,7 @@ h3 {
 }
 
 .connect {
-  border: solid 2px red;
+  /* border: solid 2px red; */
   display: flex;
   flex-direction: row;
 }
@@ -121,4 +157,119 @@ h3 {
 }
 #logofooter {
   width: 150px;
+}
+
+
+.data {
+   /* background-color: rgb(218, 173, 116); */
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+   margin-left: 200px;
+   margin-top: 70px;
+   margin-bottom: 60px;
+}
+ .download {
+   /* border: solid 2px red; */
+   height: 200px;
+    width: 20%;
+  float: left;
+  margin-left: 90px ;
+  margin-top: 5px;
+  
+ }
+ .download >p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:100px;
+  font-size: 18px;
+  padding-left: 5px;
+  padding-top: 50px;
+ }
+ .positionn {
+      height: 200px;
+       width: 20%;
+  float: left;
+  margin-left: 90px;
+   /* border: solid 2px red; */
+   margin-top: 5px;
+
+ }
+ .positionn >p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:100px;
+  font-size: 18px;
+  padding-left: 35px;
+ }
+ .time {
+
+   height: 200px;
+    width: 20%;
+  float: left;
+  margin-left: 80px;
+   /* border: solid 2px red; */
+   margin-top: 5px;
+ } 
+  .time > p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:100px;
+  font-size: 18px;
+  padding-left: 35px;
+  }
+
+   footer {
+     margin-left:  100px;
+     /* background-color: rgb(218, 173, 116); */
+   }
+
+   #logofooter {
+     width: 100px;
+   }
+
+
+   .connect {
+     display: flex;
+     flex-direction: row;
+   
+   }
+
+   .fb-root ,.fb-page ,.instgram {
+     margin-left: 10%;
+     width: 400px;
+     height: 500px;
+
+     background-color: red;
+   }
+
+   .download p {
+   width: 130px;
+     border: solid 1px red;
+     color: red;
+     font-family: Arial, Helvetica, sans-serif;
+ 
+  
+     font-size: 14px;
+     font-weight: bold;
+   }
+
+   .soical {
+     float: right;
+     margin-right: 20px;
+   }
+
+.fa-facebook {
+
+  color:rgb(83, 82, 82);
+}
+
+.fa-twitter {
+
+  color:rgb(83, 82, 82);
+}
+
+.fa-instagram{
+ 
+  color:rgb(83, 82, 82);
+}
+.fa  {
+    text-decoration: none;
 }
